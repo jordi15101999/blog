@@ -1,0 +1,32 @@
+body {
+    background-image: url('/img/aa.jpg');
+    background-size: cover;
+    background-repeat: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#asw {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75 ), rgba(0, 0, 0, 0));
+}
+
+.navbar {
+    background-color: rgba(34, 49, 52, 0.9);
+    color:white;
+}
+
+.card{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.card:hover{
+    transform: scale(1.1);
+	z-index: 2;
+    box-shadow: 0 3px 10px black;   
+}
